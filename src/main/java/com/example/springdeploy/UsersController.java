@@ -8,7 +8,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/users")
 public class UsersController {
-
     @Autowired
     private UsersRepository usersRepository;
     @PostMapping
